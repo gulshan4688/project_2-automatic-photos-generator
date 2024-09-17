@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(117, 39, 39);
+}
+.image-container {
+  text-align: center;
+}
+.image-container img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+  background-color: darkgray;
+  /* so this background color helps when image is not laoded properly */
+  width: 300px;
+  height: 300px;
+}
+
+.btn {
+  background-color: slateblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  box-shadow: 0 4p;
+
+}
+.image-container img:hover{
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity: 0.8;
+}
